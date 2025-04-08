@@ -17,7 +17,32 @@ body {
   text-align: center;
 }
 
-.places img {
-  width: 30vw; 
-  height: auto; 
+.hidden {
+  display: none;
 }
+
+#auth input,
+#auth button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1rem;
+  width: 200px;
+}
+
+#auth input {
+  background: #111;
+  color: white;
+  border: 1px solid #333;
+}
+
+#auth button {
+  background: white;
+  border: none;
+  cursor: pointer;
+}
+
+#switch {
+  color: white;
+  font-size: 0.9rem;
+}
+
